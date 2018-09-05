@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1536175282730' stop='1536175302091'>
+    <name>login with empty pass</name>
+    <title>login with empty pass</title>
+    <test-cases>
+        <test-case start='1536175282731' status='failed' stop='1536175302090'>
+            <name>should not login</name>
+            <title>should not login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a4380e75-84ff-455f-a90a-a5945362de54-attachment.png' type='image/png' size='8458'/>
+            </attachments>
+            <failure>
+                <message>Failed: getLoginButton is not defined</message>
+                <stack-trace>ReferenceError: getLoginButton is not defined
+                    at UserContext.&lt;anonymous> (C:\Users\Tania\Desktop\github_repo\project\ProjectDemo\tests\emptyPass_test.js:8:9)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:188:7)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Tania\Desktop\github_repo\project\ProjectDemo\tests\emptyPass_test.js:4:5)
+                    at addSpecsToSuite (C:\Users\Tania\Desktop\github_repo\project\ProjectDemo\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Tania\Desktop\github_repo\project\ProjectDemo\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Tania\Desktop\github_repo\project\ProjectDemo\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Tania\Desktop\github_repo\project\ProjectDemo\tests\emptyPass_test.js:3:1)
+                    at Module._compile (module.js:652:30)
+                    at Object.Module._extensions..js (module.js:663:10)
+                    at Module.load (module.js:565:32)
+                    at tryModuleLoad (module.js:505:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

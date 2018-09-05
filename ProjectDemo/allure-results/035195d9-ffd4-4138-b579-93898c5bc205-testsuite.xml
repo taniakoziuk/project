@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1536175948502' stop='1536175961158'>
+    <name>login with empty pass</name>
+    <title>login with empty pass</title>
+    <test-cases>
+        <test-case start='1536175948503' status='passed' stop='1536175961157'>
+            <name>should not login</name>
+            <title>should not login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c7c5cc21-28b7-4663-a959-7dd2ad5ff439-attachment.png' type='image/png' size='15606'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
