@@ -1,0 +1,21 @@
+[ {
+  "uid" : "ef3be26eb52d4f01",
+  "name" : "should not login",
+  "time" : {
+    "start" : 1536503853764,
+    "stop" : 1536503895279,
+    "duration" : 41515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9996306d8d56764c",
+  "name" : "should open home page",
+  "time" : {
+    "start" : 1536503804646,
+    "stop" : 1536503853731,
+    "duration" : 49085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,37 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "home page",
+    "children" : [ {
+      "name" : "should open home page",
+      "uid" : "9996306d8d56764c",
+      "parentUid" : "942076f7773b36c4c75deb9971786cd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536503804646,
+        "stop" : 1536503853731,
+        "duration" : 49085
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "942076f7773b36c4c75deb9971786cd9"
+  }, {
+    "name" : "login with empty pass",
+    "children" : [ {
+      "name" : "should not login",
+      "uid" : "ef3be26eb52d4f01",
+      "parentUid" : "e76a7429198d2c0167e1258f8971a235",
+      "status" : "passed",
+      "time" : {
+        "start" : 1536503853764,
+        "stop" : 1536503895279,
+        "duration" : 41515
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e76a7429198d2c0167e1258f8971a235"
+  } ]
+}
