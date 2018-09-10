@@ -10,7 +10,7 @@
   "devDependencies": {
     "allure-commandline": "^2.7.0",
     "jasmine-allure-reporter": "^1.0.2",
-    "protractor": "^5.4.0"
+    "protractor": "^5.4.1"
   },
   "scripts": {
     "posttest": "allure generate allure-results --clean -o allure-report"

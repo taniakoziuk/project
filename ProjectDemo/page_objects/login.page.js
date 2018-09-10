@@ -4,6 +4,7 @@ let loginButtonLocator = ".login-panel .login-button";
 let emailInputLocator = "#email";
 let passwordInputLocator = "#userPassword";
 let sinnInButtonLocator = ".iframe-wrap .login-button";
+let toastErrorLocator = '//div[@class="toast toast-error"]';
 
 class LoginPage {
     constructor(){
@@ -24,6 +25,10 @@ getPasswordInput() {
 
 getSignInButton() {
     return element(by.css(sinnInButtonLocator));
+}
+
+getToastError() {
+    return element(by.xpath(toastErrorLocator));
 }
 
 async open() {

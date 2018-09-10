@@ -1,16 +1,16 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1536503804643' stop='1536503853733'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1536570084717' stop='1536570091172'>
     <name>home page</name>
     <title>home page</title>
     <test-cases>
-        <test-case start='1536503804646' status='passed' stop='1536503853731'>
+        <test-case start='1536570084717' status='passed' stop='1536570091172'>
             <name>should open home page</name>
             <title>should open home page</title>
             <labels/>
             <parameters/>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='798271a9-8f4f-4421-bb78-5886ba1d05cf-attachment.png' type='image/png' size='3444'/>
+                <attachment title='Screenshot' source='98a8ce09-9956-46d1-aacf-1ef39f22a588-attachment.png' type='image/png' size='5163'/>
             </attachments>
         </test-case>
     </test-cases>
