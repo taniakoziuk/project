@@ -5,7 +5,9 @@ describe('home page', function() {
 
       let loginPage = new LoginPage();
 
-      await loginPage.open();
+      await allure.createStep("Open login page", async() =>
+      await loginPage.open())();
+      
       let productsPage = await loginPage.login("taniakoziuk@gmail.com", "Lo-5+G-bAM*");
       
       expect(await productsPage.header.isHeaderVisible()).toEqual(true);

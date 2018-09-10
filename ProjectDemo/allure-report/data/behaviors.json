@@ -3,25 +3,37 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "should open home page",
-    "uid" : "5e1d2fff48e55fbc",
+    "uid" : "39a1f5ac0f3e5d3a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1536604329554,
-      "stop" : 1536604335331,
-      "duration" : 5777
+      "start" : 1536611294579,
+      "stop" : 1536611300056,
+      "duration" : 5477
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should not login",
-    "uid" : "3a59f8b0c60810b4",
+    "uid" : "27a293f9252b3f81",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1536604335337,
-      "stop" : 1536604340793,
-      "duration" : 5456
+      "start" : 1536611300072,
+      "stop" : 1536611305577,
+      "duration" : 5505
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should not open home page, error should appear",
+    "uid" : "a7e5002e80bd441",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1536611305577,
+      "stop" : 1536611310963,
+      "duration" : 5386
     },
     "flaky" : false,
     "parameters" : [ ]

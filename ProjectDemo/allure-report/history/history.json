@@ -1,4 +1,24 @@
 {
+  "5ab21159b1a6ce37d3d1f23d7b92c474" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39a1f5ac0f3e5d3a",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'bind' of undefined",
+      "time" : {
+        "start" : 1536611294579,
+        "stop" : 1536611300056,
+        "duration" : 5477
+      }
+    } ]
+  },
   "d2802337d1147928b287e9b213833e2a" : {
     "statistic" : {
       "failed" : 0,
@@ -9,31 +29,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a59f8b0c60810b4",
+      "uid" : "27a293f9252b3f81",
       "status" : "passed",
       "time" : {
-        "start" : 1536604335337,
-        "stop" : 1536604340793,
-        "duration" : 5456
+        "start" : 1536611300072,
+        "stop" : 1536611305577,
+        "duration" : 5505
       }
     } ]
   },
-  "5ab21159b1a6ce37d3d1f23d7b92c474" : {
+  "3aadf1eb4fa7ae7a8f7b387600814621" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5e1d2fff48e55fbc",
-      "status" : "passed",
+      "uid" : "a7e5002e80bd441",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(xpath, //div[@class=\"toast toast-error\"])",
       "time" : {
-        "start" : 1536604329554,
-        "stop" : 1536604335331,
-        "duration" : 5777
+        "start" : 1536611305577,
+        "stop" : 1536611310963,
+        "duration" : 5386
       }
     } ]
   }

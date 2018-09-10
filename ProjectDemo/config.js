@@ -13,8 +13,6 @@ exports.config = {
       }
     },
 
-    restartBrowserBetweenTests: "true",
-
     onPrepare: function() {
       let AllureReporter = require('jasmine-allure-reporter');
     jasmine.getEnv().addReporter(new AllureReporter({
@@ -37,7 +35,7 @@ exports.config = {
     // Spec patterns are relative to the configuration file location passed
     // to protractor (in this example conf.js).
     // They may include glob patterns.
-    specs: ['./tests/*'],
+    specs: ['./tests/incorrectPass_test.js'],
   
     // Options to be passed to Jasmine-node.
     jasmineNodeOpts: {

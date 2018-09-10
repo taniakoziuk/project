@@ -1,13 +1,24 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "6a1b305bf76f3a8f365abc7c92290c7b",
     "name" : "home page",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "055deb9de986226e5ff27c352d581cb8",
+    "name" : "Login with incorrect password",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

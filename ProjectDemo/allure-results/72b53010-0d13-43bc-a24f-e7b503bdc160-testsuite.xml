@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1536612801570' stop='1536612804353'>
+    <name>Login with incorrect password</name>
+    <title>Login with incorrect password</title>
+    <test-cases>
+        <test-case start='1536612801570' status='failed' stop='1536612804353'>
+            <name>should not open home page, error should appear</name>
+            <title>should not open home page, error should appear</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1536612801572' status='passed' stop='1536612803677'>
+                    <name>Open login page</name>
+                    <title>Open login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1536612803677' status='passed' stop='1536612804041'>
+                    <name>Enter login and password</name>
+                    <title>Enter login and password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='467651df-e0c3-41f7-8483-3598e05528f5-attachment.png' type='image/png' size='20755'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: By(xpath, //div[@class="toast toast-error"])</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(xpath, //div[@class="toast toast-error"])
+                    at elementArrayFinder.getWebElements.then (C:\Users\tetiana.koziuk\Desktop\github_repo\project\ProjectDemo\node_modules\protractor\built\element.js:814:27)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\tetiana.koziuk\Desktop\github_repo\project\ProjectDemo\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\Users\tetiana.koziuk\Desktop\github_repo\project\ProjectDemo\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\Users\tetiana.koziuk\Desktop\github_repo\project\ProjectDemo\node_modules\protractor\built\element.js:831:22)
+                    at UserContext.&lt;anonymous> (C:\Users\tetiana.koziuk\Desktop\github_repo\project\ProjectDemo\tests\incorrectPass_test.js:19:31)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:188:7)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\tetiana.koziuk\Desktop\github_repo\project\ProjectDemo\tests\incorrectPass_test.js:4:5)
+                    at addSpecsToSuite (C:\Users\tetiana.koziuk\Desktop\github_repo\project\ProjectDemo\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\tetiana.koziuk\Desktop\github_repo\project\ProjectDemo\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\tetiana.koziuk\Desktop\github_repo\project\ProjectDemo\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\tetiana.koziuk\Desktop\github_repo\project\ProjectDemo\tests\incorrectPass_test.js:3:1)
+                    at Module._compile (module.js:652:30)
+                    at Object.Module._extensions..js (module.js:663:10)
+                    at Module.load (module.js:565:32)
+                    at tryModuleLoad (module.js:505:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

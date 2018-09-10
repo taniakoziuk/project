@@ -1,12 +1,12 @@
 {
-  "uid" : "3a59f8b0c60810b4",
+  "uid" : "27a293f9252b3f81",
   "name" : "should not login",
   "fullName" : "login with empty pass.should not login",
   "historyId" : "d2802337d1147928b287e9b213833e2a",
   "time" : {
-    "start" : 1536604335337,
-    "stop" : 1536604340793,
-    "duration" : 5456
+    "start" : 1536611300072,
+    "stop" : 1536611305577,
+    "duration" : 5505
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,76 +18,76 @@
     "steps" : [ {
       "name" : "Open login page",
       "time" : {
-        "start" : 1536604335337,
-        "stop" : 1536604337621,
-        "duration" : 2284
+        "start" : 1536611300072,
+        "stop" : 1536611302373,
+        "duration" : 2301
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "Clock login button",
+      "name" : "Click login button",
       "time" : {
-        "start" : 1536604337621,
-        "stop" : 1536604337704,
-        "duration" : 83
+        "start" : 1536611302373,
+        "stop" : 1536611302491,
+        "duration" : 118
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "enter email",
       "time" : {
-        "start" : 1536604337704,
-        "stop" : 1536604337830,
-        "duration" : 126
+        "start" : 1536611302491,
+        "stop" : 1536611302605,
+        "duration" : 114
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "click Sign In button",
       "time" : {
-        "start" : 1536604337830,
-        "stop" : 1536604337896,
-        "duration" : 66
+        "start" : 1536611302605,
+        "stop" : 1536611302675,
+        "duration" : 70
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "1c7ac75a89dc19c2",
+      "uid" : "4de8f9c451371983",
       "name" : "Screenshot",
-      "source" : "1c7ac75a89dc19c2.png",
+      "source" : "4de8f9c451371983.png",
       "type" : "image/png",
       "size" : 3444
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1,
+    "stepsCount" : 4,
     "hasContent" : true,
-    "stepsCount" : 4
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -116,6 +116,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3a59f8b0c60810b4.json",
+  "source" : "27a293f9252b3f81.json",
   "parameterValues" : [ ]
 }
