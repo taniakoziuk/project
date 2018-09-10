@@ -1,0 +1,121 @@
+{
+  "uid" : "3a59f8b0c60810b4",
+  "name" : "should not login",
+  "fullName" : "login with empty pass.should not login",
+  "historyId" : "d2802337d1147928b287e9b213833e2a",
+  "time" : {
+    "start" : 1536604335337,
+    "stop" : 1536604340793,
+    "duration" : 5456
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login page",
+      "time" : {
+        "start" : 1536604335337,
+        "stop" : 1536604337621,
+        "duration" : 2284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Clock login button",
+      "time" : {
+        "start" : 1536604337621,
+        "stop" : 1536604337704,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "enter email",
+      "time" : {
+        "start" : 1536604337704,
+        "stop" : 1536604337830,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click Sign In button",
+      "time" : {
+        "start" : 1536604337830,
+        "stop" : 1536604337896,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "1c7ac75a89dc19c2",
+      "name" : "Screenshot",
+      "source" : "1c7ac75a89dc19c2.png",
+      "type" : "image/png",
+      "size" : 3444
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "login with empty pass"
+  }, {
+    "name" : "testClass",
+    "value" : "login with empty pass"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not login"
+  }, {
+    "name" : "package",
+    "value" : "login with empty pass"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a59f8b0c60810b4.json",
+  "parameterValues" : [ ]
+}

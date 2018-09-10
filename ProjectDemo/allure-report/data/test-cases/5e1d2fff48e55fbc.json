@@ -1,12 +1,12 @@
 {
-  "uid" : "1ca63aec69f2aa98",
+  "uid" : "5e1d2fff48e55fbc",
   "name" : "should open home page",
   "fullName" : "home page.should open home page",
   "historyId" : "5ab21159b1a6ce37d3d1f23d7b92c474",
   "time" : {
-    "start" : 1536499120485,
-    "stop" : 1536499155631,
-    "duration" : 35146
+    "start" : 1536604329554,
+    "stop" : 1536604335331,
+    "duration" : 5777
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,17 +17,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "19e725a4d2fa1eda",
+      "uid" : "44d8b1b7a2bd0e8d",
       "name" : "Screenshot",
-      "source" : "19e725a4d2fa1eda.png",
+      "source" : "44d8b1b7a2bd0e8d.png",
       "type" : "image/png",
       "size" : 3444
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -48,12 +48,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1ca63aec69f2aa98.json",
+  "source" : "5e1d2fff48e55fbc.json",
   "parameterValues" : [ ]
 }
