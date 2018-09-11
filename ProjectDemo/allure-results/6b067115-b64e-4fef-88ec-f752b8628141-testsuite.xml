@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1536649235203' stop='1536649238704'>
+    <name>Login with incorrect password</name>
+    <title>Login with incorrect password</title>
+    <test-cases>
+        <test-case start='1536649235203' status='passed' stop='1536649238704'>
+            <name>should not open home page, error should appear</name>
+            <title>should not open home page, error should appear</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1536649235205' status='passed' stop='1536649237551'>
+                    <name>Open login page</name>
+                    <title>Open login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1536649237551' status='passed' stop='1536649237965'>
+                    <name>Enter login and password</name>
+                    <title>Enter login and password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9a5ad168-6cf4-4e32-878d-614a9497fb83-attachment.png' type='image/png' size='22919'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
