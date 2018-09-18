@@ -1,13 +1,21 @@
-// class BaseControl {
+class BaseControl {
 
-//     constructor(protractorElement, controlName) {
-//         this.protractorElement = protractorElement;
-//         this.controlName = controlName;
-//     }
+    constructor(protractorElement, controlName) {
+        this.protractorElement = protractorElement;
+        this.controlName = controlName;
+    }
 
-//     async click() {
-//         await this.protractorElement.click();
-//     }
-// }
+    async click() {
+        await this.protractorElement.click();
+    }
 
-// module.exports = BaseControl;
+    async isPresent() {
+        return this.protractorElement.isPresent();
+    }
+
+    async isDisplayed() {
+        return this.protractorElement.isDisplayed();
+    }
+}
+
+module.exports = BaseControl;

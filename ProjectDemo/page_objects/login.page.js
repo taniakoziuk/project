@@ -1,10 +1,12 @@
 let ProductsPage = require("./products.page");
+let Button = require("../controls/button");
+let Input = require("../controls/input");
 
 let loginButtonLocator = ".login-panel .login-button";
 let emailInputLocator = "#email";
 let passwordInputLocator = "#userPassword";
 let sinnInButtonLocator = ".iframe-wrap .login-button";
-let toastErrorLocator = '//div[@class="toast toast-error"]';
+let toastErrorLocator = 'div.toast.toast-error';
 
 class LoginPage {
     constructor(){
@@ -12,23 +14,23 @@ class LoginPage {
     }
 
 getLoginButton() {
-    return element(by.css(loginButtonLocator));
+    return new Button(element(by.css(loginButtonLocator)), "Login button");
 }
 
 getEmailinput() {
-    return element(by.css(emailInputLocator));
+    return new Input(element(by.css(emailInputLocator)), "Email input");
 }
 
 getPasswordInput() {
-    return element(by.css(passwordInputLocator));
+    return new Input(element(by.css(passwordInputLocator)), "Password input");
 }
 
 getSignInButton() {
-    return element(by.css(sinnInButtonLocator));
+    return new Button(element(by.css(sinnInButtonLocator)), "Sign in button");
 }
 
 getToastError() {
-    return element(by.xpath(toastErrorLocator));
+    return element(by.css(toastErrorLocator));
 }
 
 async open() {
@@ -45,6 +47,12 @@ async login(email, pass) {
 
     return new ProductsPage();
 }
+
+// async waiting () {
+//     await browser.wait(async function(){
+//     return await element(by.css('div.toast.toast-error')).isDisplayed();
+//     }, 5000);
+// }
 
 }
 

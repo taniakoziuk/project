@@ -1,14 +1,14 @@
-// let BaseControl = require("./base_control");
+let BaseControl = require("./base_control");
 
-// class Input extends BaseControl {
+class Input extends BaseControl {
 
-//     constructor(protractorElement, controlName) {
-//         super(protractorElement, controlName);
-//     }
+    constructor(protractorElement, controlName) {
+        super(protractorElement, controlName);
+    }
 
-//     async sendKeys(text) {
-//         await this.protractorElement.sendKeys(text);
-//     }
-// }
+    async sendKeys(text) {
+        await this.protractorElement.sendKeys(text);
+    }
+}
 
-// module.exports = Input;
+module.exports = Input;
