@@ -1,6 +1,7 @@
 let HeaderPage = require("./header.page");
 let Button = require("../controls/button");
 let Input = require("../controls/input");
+let Message = require("../controls/message");
 
 let addProdLinkLocator = '//span[@class="btn gds-btn-icon gds-add-entity-icon"]';
 let productNameFieldLocator = "#product-name";
@@ -32,7 +33,7 @@ class ProductsPage {
     }
 
     getValidationMessagePrFamily() {
-        return element(by.xpath(validationMessagePrFamilyLocator));
+        return new Message(element(by.css(validationMessagePrFamilyLocator)), "Error Message");
     }
 
     getSaveProductButton() {
