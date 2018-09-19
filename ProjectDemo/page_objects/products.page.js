@@ -6,9 +6,11 @@ let Message = require("../controls/message");
 let addProdLinkLocator = '//span[@class="btn gds-btn-icon gds-add-entity-icon"]';
 let productNameFieldLocator = "#product-name";
 let productFamilyDropdownLocator = '//button[@class="dropdown-toggle form-control multiselect-dropdown"]';
-let inputSearchProductFamilyLocator = '//input[@class="form-control ng-pristine ng-valid ng-touched"]';
+let inputSearchProductFamilyLocator = '//input[@class="form-control ng-untouched ng-pristine ng-valid"]';
 let validationMessagePrFamilyLocator = ".edit-poduct-family-list .validation-message";
 let saveProductButtonLocator = '//button[@class="btn gds-btn gds-btn-success"]';
+let aqaItemLocator = ".dropdown-menu a span";
+let toastSuccessCreationLocator ="div .toast-message";
 
 class ProductsPage {
     constructor(){
@@ -38,6 +40,14 @@ class ProductsPage {
 
     getSaveProductButton() {
         return new Button(element(by.xpath(saveProductButtonLocator)), "Save Product button");
+    }
+
+    getAqaItem() {
+        return element(by.css(aqaItemLocator));
+    }
+
+    getToastSuccessCreation() {
+        return new Message(element(by.css(toastSuccessCreationLocator)), "Successful creation toast");
     }
     
 }

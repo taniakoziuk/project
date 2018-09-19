@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537390095162' stop='1537390116588'>
+    <name>Product creation</name>
+    <title>Product creation</title>
+    <test-cases>
+        <test-case start='1537390095162' status='passed' stop='1537390116588'>
+            <name>New product should be created</name>
+            <title>New product should be created</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537390095163' status='passed' stop='1537390097415'>
+                    <name>Open login page</name>
+                    <title>Open login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537390097415' status='passed' stop='1537390097775'>
+                    <name>Input credentials</name>
+                    <title>Input credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537390102784' status='passed' stop='1537390102935'>
+                    <name>click Administration button</name>
+                    <title>click Administration button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537390107949' status='passed' stop='1537390108080'>
+                    <name>click Add new product button</name>
+                    <title>click Add new product button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537390108080' status='passed' stop='1537390108228'>
+                    <name>Input Product name</name>
+                    <title>Input Product name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537390108228' status='passed' stop='1537390108373'>
+                    <name>Click Product Family dropdown</name>
+                    <title>Click Product Family dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537390108373' status='passed' stop='1537390108472'>
+                    <name>Input aqa in the search field</name>
+                    <title>Input aqa in the search field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537390108562' status='passed' stop='1537390108651'>
+                    <name>click Save button</name>
+                    <title>click Save button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='319dd49b-0c96-44e4-b55d-e722e1e4126f-attachment.png' type='image/png' size='3473'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

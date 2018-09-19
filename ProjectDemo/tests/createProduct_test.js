@@ -3,7 +3,7 @@ let LoginPage = require("../page_objects/login.page");
 let HeaderPage = require("../page_objects/header.page");
 
 describe('Product creation', function() {
-    it('should not create product without Product Family', async function() {
+    it('New product should be created', async function() {
 
       let loginPage = new LoginPage();
       let prod = new ProductsPage();
@@ -24,16 +24,21 @@ describe('Product creation', function() {
       await prod.getAddProductLink().click())();
 
       await allure.createStep("Input Product name", async() =>
-      await prod.getProductNameField().sendKeys("Product 2 TaniaTest"))();
-      await browser.sleep(5000);
+      await prod.getProductNameField().sendKeys("Pr 2 TaniaTest"))();
+
+      await allure.createStep("Click Product Family dropdown", async() =>
+      await prod.getproductFamilyDropdown().click())();
+
+      await allure.createStep("Input aqa in the search field", async() =>
+      await prod.getInputSearchProductFamily().sendKeys("aqa"))();
+
+      await prod.getAqaItem().click();
 
       await allure.createStep("click Save button", async() =>
       await prod.getSaveProductButton().click())();
       await browser.sleep(5000);
 
-      let message = await prod.getValidationMessagePrFamily();
-
-      expect(await message.isDisplayed()).toBe(true);
-
+      let toast = await prod.getToastSuccessCreation();
+      expect(await toast.getText()).toEqual('Product Pr 2 TaniaTest successfully created');
     });
-  });
+});

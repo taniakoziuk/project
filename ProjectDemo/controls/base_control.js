@@ -16,6 +16,10 @@ class BaseControl {
     async isDisplayed() {
         return this.protractorElement.isDisplayed();
     }
+
+    async getText() {
+        return this.protractorElement.getText();
+    }
 }
 
 module.exports = BaseControl;
