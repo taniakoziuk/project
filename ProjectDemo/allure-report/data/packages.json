@@ -2,52 +2,20 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "home page",
+    "name" : "Product creation",
     "children" : [ {
-      "name" : "should open home page",
-      "uid" : "39a1f5ac0f3e5d3a",
-      "parentUid" : "942076f7773b36c4c75deb9971786cd9",
-      "status" : "failed",
-      "time" : {
-        "start" : 1536611294579,
-        "stop" : 1536611300056,
-        "duration" : 5477
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "942076f7773b36c4c75deb9971786cd9"
-  }, {
-    "name" : "login with empty pass",
-    "children" : [ {
-      "name" : "should not login",
-      "uid" : "27a293f9252b3f81",
-      "parentUid" : "e76a7429198d2c0167e1258f8971a235",
+      "name" : "New product should be created",
+      "uid" : "bd7a75e914b92e7f",
+      "parentUid" : "5913091172b43b4cfb5ce9f5fa0db9c1",
       "status" : "passed",
       "time" : {
-        "start" : 1536611300072,
-        "stop" : 1536611305577,
-        "duration" : 5505
+        "start" : 1537393388334,
+        "stop" : 1537393419802,
+        "duration" : 31468
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "e76a7429198d2c0167e1258f8971a235"
-  }, {
-    "name" : "Login with incorrect password",
-    "children" : [ {
-      "name" : "should not open home page, error should appear",
-      "uid" : "a7e5002e80bd441",
-      "parentUid" : "ef8f0174bd217173a24e97084c2840f8",
-      "status" : "failed",
-      "time" : {
-        "start" : 1536611305577,
-        "stop" : 1536611310963,
-        "duration" : 5386
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "ef8f0174bd217173a24e97084c2840f8"
+    "uid" : "5913091172b43b4cfb5ce9f5fa0db9c1"
   } ]
 }

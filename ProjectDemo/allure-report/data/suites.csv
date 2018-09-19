@@ -1,4 +1,2 @@
 "Status","Name","Duration in ms","Description"
-"failed","Login with incorrect password.should not open home page, error should appear","5386",""
-"passed","login with empty pass.should not login","5505",""
-"failed","home page.should open home page","5477",""
+"passed","Product creation.New product should be created","31468",""

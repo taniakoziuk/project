@@ -24,7 +24,7 @@ describe('Product creation', function() {
       await prod.getAddProductLink().click())();
 
       await allure.createStep("Input Product name", async() =>
-      await prod.getProductNameField().sendKeys("Pr 2 TaniaTest"))();
+      await prod.getProductNameField().sendKeys("Pr delete TaniaTest"))();
 
       await allure.createStep("Click Product Family dropdown", async() =>
       await prod.getproductFamilyDropdown().click())();
@@ -38,7 +38,18 @@ describe('Product creation', function() {
       await prod.getSaveProductButton().click())();
       await browser.sleep(5000);
 
+      await allure.createStep("click Delete button", async() =>
+      await prod.getDeletePrButn().click())();
+      await browser.sleep(5000);
+
+    //   await browser.wait(prod.isConfirmModulVisible(), 5000);
+
+      await allure.createStep("click Delete confirmation button", async() =>
+      await prod.getDeleteConfirmButton().click())();
+      await browser.sleep(5000);
+
       let toast = await prod.getToastSuccess();
-      expect(await toast.getText()).toEqual('Product Pr 2 TaniaTest successfully created');
+      expect(await toast.getText()).toEqual('Product Pr delete TaniaTest successfully deleted');
+
     });
 });

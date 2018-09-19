@@ -1,25 +1,5 @@
 {
-  "5ab21159b1a6ce37d3d1f23d7b92c474" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "39a1f5ac0f3e5d3a",
-      "status" : "failed",
-      "statusDetails" : "Failed: Cannot read property 'bind' of undefined",
-      "time" : {
-        "start" : 1536611294579,
-        "stop" : 1536611300056,
-        "duration" : 5477
-      }
-    } ]
-  },
-  "d2802337d1147928b287e9b213833e2a" : {
+  "89d4823ee5fd9f6360654bf3e75158d9" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -29,32 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "27a293f9252b3f81",
+      "uid" : "bd7a75e914b92e7f",
       "status" : "passed",
       "time" : {
-        "start" : 1536611300072,
-        "stop" : 1536611305577,
-        "duration" : 5505
-      }
-    } ]
-  },
-  "3aadf1eb4fa7ae7a8f7b387600814621" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a7e5002e80bd441",
-      "status" : "failed",
-      "statusDetails" : "Failed: No element found using locator: By(xpath, //div[@class=\"toast toast-error\"])",
-      "time" : {
-        "start" : 1536611305577,
-        "stop" : 1536611310963,
-        "duration" : 5386
+        "start" : 1537393388334,
+        "stop" : 1537393419802,
+        "duration" : 31468
       }
     } ]
   }

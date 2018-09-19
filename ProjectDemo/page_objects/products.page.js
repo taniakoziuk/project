@@ -10,7 +10,10 @@ let inputSearchProductFamilyLocator = '//input[@class="form-control ng-untouched
 let validationMessagePrFamilyLocator = ".edit-poduct-family-list .validation-message";
 let saveProductButtonLocator = '//button[@class="btn gds-btn gds-btn-success"]';
 let aqaItemLocator = ".dropdown-menu a span";
-let toastSuccessCreationLocator ="div .toast-message";
+let toastSuccessLocator ="div .toast-message";
+let deletePrButnLocator = "//button [@class='btn gds-btn-icon gds-delete-icon']";
+let confirmModalLocator = "confirmation-modal div.modal-dialog div.modal-content";
+let deleteConfirmButtonLocator = "//button [@class='btn gds-btn gds-ml-1 gds-btn-danger']";
 
 class ProductsPage {
     constructor(){
@@ -46,10 +49,32 @@ class ProductsPage {
         return element(by.css(aqaItemLocator));
     }
 
-    getToastSuccessCreation() {
-        return new Message(element(by.css(toastSuccessCreationLocator)), "Successful creation toast");
+    getToastSuccess() {
+        return new Message(element(by.css(toastSuccessLocator)), "Successful creation toast");
+    }
+
+    getDeletePrButn() {
+        return new Button(element(by.xpath(deletePrButnLocator)), "Delete Product button");
     }
     
+    getConfirmModal() {
+        return new Message(element(by.css(confirmModalLocator)), "Confirmation Modal");
+    }
+
+    getDeleteConfirmButton() {
+        return new Button(element(by.xpath(deleteConfirmButtonLocator)), "Delete confirmation button");
+    }
+
+    async waitForConfirmModalAvailable() {
+        const modal = this.getConfirmModal();
+ 
+        await browser.wait(protractor.ExpectedConditions.visibilityOf(modal), 5000);
+     }
+ 
+     async isConfirmModulVisible() {
+         await this.waitForConfirmModalAvailable();
+         return await this.getConfirmModal().isDisplayed()
+        }
 }
 
 module.exports = ProductsPage;

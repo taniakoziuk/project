@@ -1,41 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Failed: Cannot read property 'bind' of undefined",
-      "children" : [ {
-        "name" : "should open home page",
-        "uid" : "39a1f5ac0f3e5d3a",
-        "parentUid" : "e37b49367ef26c654be1cc3071e918e8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1536611294579,
-          "stop" : 1536611300056,
-          "duration" : 5477
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e37b49367ef26c654be1cc3071e918e8"
-    }, {
-      "name" : "Failed: No element found using locator: By(xpath, //div[@class=\"toast toast-error\"])",
-      "children" : [ {
-        "name" : "should not open home page, error should appear",
-        "uid" : "a7e5002e80bd441",
-        "parentUid" : "d8b8bafa0cd72aeb65f589bfaf9c8aeb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1536611305577,
-          "stop" : 1536611310963,
-          "duration" : 5386
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d8b8bafa0cd72aeb65f589bfaf9c8aeb"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }

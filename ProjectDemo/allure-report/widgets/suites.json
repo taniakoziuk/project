@@ -1,30 +1,8 @@
 {
-  "total" : 3,
+  "total" : 1,
   "items" : [ {
-    "uid" : "6a1b305bf76f3a8f365abc7c92290c7b",
-    "name" : "home page",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "055deb9de986226e5ff27c352d581cb8",
-    "name" : "Login with incorrect password",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "6e1b08ac0c60befacb6c934e1de04d0c",
-    "name" : "login with empty pass",
+    "uid" : "1136a8fd70575aa1f3e23d15e9d78e24",
+    "name" : "Product creation",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

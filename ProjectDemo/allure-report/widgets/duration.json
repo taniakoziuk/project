@@ -1,31 +1,11 @@
 [ {
-  "uid" : "a7e5002e80bd441",
-  "name" : "should not open home page, error should appear",
+  "uid" : "bd7a75e914b92e7f",
+  "name" : "New product should be created",
   "time" : {
-    "start" : 1536611305577,
-    "stop" : 1536611310963,
-    "duration" : 5386
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "27a293f9252b3f81",
-  "name" : "should not login",
-  "time" : {
-    "start" : 1536611300072,
-    "stop" : 1536611305577,
-    "duration" : 5505
+    "start" : 1537393388334,
+    "stop" : 1537393419802,
+    "duration" : 31468
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "39a1f5ac0f3e5d3a",
-  "name" : "should open home page",
-  "time" : {
-    "start" : 1536611294579,
-    "stop" : 1536611300056,
-    "duration" : 5477
-  },
-  "status" : "failed",
   "severity" : "normal"
 } ]
