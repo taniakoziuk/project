@@ -5,17 +5,93 @@
     "name" : "Product creation",
     "children" : [ {
       "name" : "New product should be created",
-      "uid" : "bd7a75e914b92e7f",
+      "uid" : "664fc24f334327c",
       "parentUid" : "1136a8fd70575aa1f3e23d15e9d78e24",
       "status" : "passed",
       "time" : {
-        "start" : 1537393388334,
-        "stop" : 1537393419802,
-        "duration" : 31468
+        "start" : 1537437538656,
+        "stop" : 1537437559580,
+        "duration" : 20924
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should not create product without Product Family",
+      "uid" : "7314795d43147afd",
+      "parentUid" : "1136a8fd70575aa1f3e23d15e9d78e24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537437559588,
+        "stop" : 1537437585063,
+        "duration" : 25475
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "1136a8fd70575aa1f3e23d15e9d78e24"
+  }, {
+    "name" : "Product deletion",
+    "children" : [ {
+      "name" : "Product should be deleted",
+      "uid" : "d3f3d0a5602a2803",
+      "parentUid" : "d56c371bd6b54537c202f9aba3726dce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537437585066,
+        "stop" : 1537437616110,
+        "duration" : 31044
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d56c371bd6b54537c202f9aba3726dce"
+  }, {
+    "name" : "login with empty pass",
+    "children" : [ {
+      "name" : "should not login",
+      "uid" : "b367ee9ffa6914c0",
+      "parentUid" : "6e1b08ac0c60befacb6c934e1de04d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537437616113,
+        "stop" : 1537437620942,
+        "duration" : 4829
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6e1b08ac0c60befacb6c934e1de04d0c"
+  }, {
+    "name" : "Login with incorrect password",
+    "children" : [ {
+      "name" : "should not open home page, error should appear",
+      "uid" : "7483992dc9a8d5",
+      "parentUid" : "055deb9de986226e5ff27c352d581cb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537437620944,
+        "stop" : 1537437630982,
+        "duration" : 10038
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "055deb9de986226e5ff27c352d581cb8"
+  }, {
+    "name" : "successful login",
+    "children" : [ {
+      "name" : "should open home page",
+      "uid" : "4019630c792506fb",
+      "parentUid" : "426d12dd8e394a7817572da7eedcc4ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537437630986,
+        "stop" : 1537437636360,
+        "duration" : 5374
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "426d12dd8e394a7817572da7eedcc4ab"
   } ]
 }

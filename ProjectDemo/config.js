@@ -13,7 +13,7 @@ exports.config = {
       }
     },
 
-    restartBrowserBetweenTests: true,
+    // restartBrowserBetweenTests: true,
 
     onPrepare: function() {
       let AllureReporter = require('jasmine-allure-reporter');
@@ -37,7 +37,7 @@ exports.config = {
     // Spec patterns are relative to the configuration file location passed
     // to protractor (in this example conf.js).
     // They may include glob patterns.
-    specs: ['./tests/deleteProduct_test.js'],
+    specs: ['./tests/*_test.js'],
   
     // Options to be passed to Jasmine-node.
     jasmineNodeOpts: {

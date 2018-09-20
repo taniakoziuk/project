@@ -9,6 +9,8 @@ describe('Product creation', function() {
       let prod = new ProductsPage();
       let headerPage = new HeaderPage();
 
+      await browser.restart();
+
       await allure.createStep("Open login page", async() =>
       await loginPage.open())();
       

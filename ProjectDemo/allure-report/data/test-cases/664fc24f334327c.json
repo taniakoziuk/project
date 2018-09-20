@@ -1,12 +1,12 @@
 {
-  "uid" : "bd7a75e914b92e7f",
+  "uid" : "664fc24f334327c",
   "name" : "New product should be created",
   "fullName" : "Product creation.New product should be created",
   "historyId" : "89d4823ee5fd9f6360654bf3e75158d9",
   "time" : {
-    "start" : 1537393388334,
-    "stop" : 1537393419802,
-    "duration" : 31468
+    "start" : 1537437538656,
+    "stop" : 1537437559580,
+    "duration" : 20924
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,164 +18,134 @@
     "steps" : [ {
       "name" : "Open login page",
       "time" : {
-        "start" : 1537393388334,
-        "stop" : 1537393390468,
-        "duration" : 2134
+        "start" : 1537437540748,
+        "stop" : 1537437543025,
+        "duration" : 2277
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Input credentials",
       "time" : {
-        "start" : 1537393390468,
-        "stop" : 1537393390818,
-        "duration" : 350
+        "start" : 1537437543025,
+        "stop" : 1537437543406,
+        "duration" : 381
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "click Administration button",
       "time" : {
-        "start" : 1537393395826,
-        "stop" : 1537393395968,
-        "duration" : 142
+        "start" : 1537437548407,
+        "stop" : 1537437548560,
+        "duration" : 153
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "click Add new product button",
       "time" : {
-        "start" : 1537393400973,
-        "stop" : 1537393401101,
-        "duration" : 128
+        "start" : 1537437553561,
+        "stop" : 1537437553695,
+        "duration" : 134
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Input Product name",
       "time" : {
-        "start" : 1537393401101,
-        "stop" : 1537393401246,
-        "duration" : 145
+        "start" : 1537437553695,
+        "stop" : 1537437553836,
+        "duration" : 141
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Click Product Family dropdown",
       "time" : {
-        "start" : 1537393401246,
-        "stop" : 1537393401400,
-        "duration" : 154
+        "start" : 1537437553836,
+        "stop" : 1537437553976,
+        "duration" : 140
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Input aqa in the search field",
       "time" : {
-        "start" : 1537393401400,
-        "stop" : 1537393401494,
-        "duration" : 94
+        "start" : 1537437553976,
+        "stop" : 1537437554071,
+        "duration" : 95
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "click Save button",
       "time" : {
-        "start" : 1537393401599,
-        "stop" : 1537393401679,
-        "duration" : 80
+        "start" : 1537437554157,
+        "stop" : 1537437554243,
+        "duration" : 86
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "click Delete button",
-      "time" : {
-        "start" : 1537393406680,
-        "stop" : 1537393406789,
-        "duration" : 109
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
       "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "click Delete confirmation button",
-      "time" : {
-        "start" : 1537393411802,
-        "stop" : 1537393411887,
-        "duration" : 85
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "2ca0adb49ebfd863",
+      "uid" : "24a0e6090cacbcbf",
       "name" : "Screenshot",
-      "source" : "2ca0adb49ebfd863.png",
+      "source" : "24a0e6090cacbcbf.png",
       "type" : "image/png",
-      "size" : 3473
+      "size" : 71215
     } ],
     "parameters" : [ ],
-    "stepsCount" : 10,
     "hasContent" : true,
+    "stepsCount" : 8,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false
   },
@@ -206,6 +176,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bd7a75e914b92e7f.json",
+  "source" : "664fc24f334327c.json",
   "parameterValues" : [ ]
 }

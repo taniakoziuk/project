@@ -1,0 +1,151 @@
+{
+  "uid" : "7314795d43147afd",
+  "name" : "should not create product without Product Family",
+  "fullName" : "Product creation.should not create product without Product Family",
+  "historyId" : "a8b0c7bd916404abc6c5a06d4f89aca8",
+  "time" : {
+    "start" : 1537437559588,
+    "stop" : 1537437585063,
+    "duration" : 25475
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login page",
+      "time" : {
+        "start" : 1537437561706,
+        "stop" : 1537437563897,
+        "duration" : 2191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Input credentials",
+      "time" : {
+        "start" : 1537437563897,
+        "stop" : 1537437564248,
+        "duration" : 351
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click Administration button",
+      "time" : {
+        "start" : 1537437569249,
+        "stop" : 1537437569403,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click Add new product button",
+      "time" : {
+        "start" : 1537437574404,
+        "stop" : 1537437574536,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Input Product name",
+      "time" : {
+        "start" : 1537437574536,
+        "stop" : 1537437574684,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click Save button",
+      "time" : {
+        "start" : 1537437579684,
+        "stop" : 1537437579783,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6d6606532649d5cc",
+      "name" : "Screenshot",
+      "source" : "6d6606532649d5cc.png",
+      "type" : "image/png",
+      "size" : 66266
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Product creation"
+  }, {
+    "name" : "testClass",
+    "value" : "Product creation"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not create product without Product Family"
+  }, {
+    "name" : "package",
+    "value" : "Product creation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7314795d43147afd.json",
+  "parameterValues" : [ ]
+}

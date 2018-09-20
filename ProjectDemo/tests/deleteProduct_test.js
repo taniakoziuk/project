@@ -2,12 +2,14 @@ let ProductsPage = require("../page_objects/products.page");
 let LoginPage = require("../page_objects/login.page");
 let HeaderPage = require("../page_objects/header.page");
 
-describe('Product creation', function() {
-    it('New product should be created', async function() {
+describe('Product deletion', function() {
+    it('Product should be deleted', async function() {
 
       let loginPage = new LoginPage();
       let prod = new ProductsPage();
       let headerPage = new HeaderPage();
+
+      await browser.restart();
 
       await allure.createStep("Open login page", async() =>
       await loginPage.open())();

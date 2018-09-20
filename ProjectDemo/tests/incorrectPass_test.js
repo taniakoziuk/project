@@ -5,6 +5,8 @@ describe('Login with incorrect password', function() {
 
       let loginPage = new LoginPage();
 
+      await browser.restart();
+
       await allure.createStep("Open login page", async() =>
       await loginPage.open())();
       

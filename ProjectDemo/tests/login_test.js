@@ -1,9 +1,11 @@
 let LoginPage = require("../page_objects/login.page");
 
-describe('home page', function() {
+describe('successful login', function() {
     it('should open home page', async function() {
 
       let loginPage = new LoginPage();
+
+      await browser.restart();
 
       await allure.createStep("Open login page", async() =>
       await loginPage.open())();

@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537437559587' stop='1537437585064'>
+    <name>Product creation</name>
+    <title>Product creation</title>
+    <test-cases>
+        <test-case start='1537437559588' status='passed' stop='1537437585063'>
+            <name>should not create product without Product Family</name>
+            <title>should not create product without Product Family</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537437561706' status='passed' stop='1537437563897'>
+                    <name>Open login page</name>
+                    <title>Open login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537437563897' status='passed' stop='1537437564248'>
+                    <name>Input credentials</name>
+                    <title>Input credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537437569249' status='passed' stop='1537437569403'>
+                    <name>click Administration button</name>
+                    <title>click Administration button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537437574404' status='passed' stop='1537437574536'>
+                    <name>click Add new product button</name>
+                    <title>click Add new product button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537437574536' status='passed' stop='1537437574684'>
+                    <name>Input Product name</name>
+                    <title>Input Product name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537437579684' status='passed' stop='1537437579783'>
+                    <name>click Save button</name>
+                    <title>click Save button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8c313b6a-99ed-4320-983a-a3a837b3bfd0-attachment.png' type='image/png' size='66266'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

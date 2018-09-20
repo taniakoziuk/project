@@ -2,14 +2,74 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "New product should be created",
-    "uid" : "bd7a75e914b92e7f",
+    "name" : "should not create product without Product Family",
+    "uid" : "7314795d43147afd",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1537393388334,
-      "stop" : 1537393419802,
-      "duration" : 31468
+      "start" : 1537437559588,
+      "stop" : 1537437585063,
+      "duration" : 25475
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should open home page",
+    "uid" : "4019630c792506fb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537437630986,
+      "stop" : 1537437636360,
+      "duration" : 5374
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Product should be deleted",
+    "uid" : "d3f3d0a5602a2803",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537437585066,
+      "stop" : 1537437616110,
+      "duration" : 31044
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "New product should be created",
+    "uid" : "664fc24f334327c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537437538656,
+      "stop" : 1537437559580,
+      "duration" : 20924
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should not open home page, error should appear",
+    "uid" : "7483992dc9a8d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537437620944,
+      "stop" : 1537437630982,
+      "duration" : 10038
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should not login",
+    "uid" : "b367ee9ffa6914c0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537437616113,
+      "stop" : 1537437620942,
+      "duration" : 4829
     },
     "flaky" : false,
     "parameters" : [ ]

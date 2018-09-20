@@ -1,0 +1,91 @@
+{
+  "uid" : "7483992dc9a8d5",
+  "name" : "should not open home page, error should appear",
+  "fullName" : "Login with incorrect password.should not open home page, error should appear",
+  "historyId" : "3aadf1eb4fa7ae7a8f7b387600814621",
+  "time" : {
+    "start" : 1537437620944,
+    "stop" : 1537437630982,
+    "duration" : 10038
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login page",
+      "time" : {
+        "start" : 1537437623048,
+        "stop" : 1537437625339,
+        "duration" : 2291
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter login and password",
+      "time" : {
+        "start" : 1537437625339,
+        "stop" : 1537437625695,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5059137094047d4",
+      "name" : "Screenshot",
+      "source" : "5059137094047d4.png",
+      "type" : "image/png",
+      "size" : 23047
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login with incorrect password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login with incorrect password"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not open home page, error should appear"
+  }, {
+    "name" : "package",
+    "value" : "Login with incorrect password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7483992dc9a8d5.json",
+  "parameterValues" : [ ]
+}

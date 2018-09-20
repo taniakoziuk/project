@@ -1,2 +1,7 @@
 "Status","Name","Duration in ms","Description"
-"passed","Product creation.New product should be created","31468",""
+"passed","Product creation.should not create product without Product Family","25475",""
+"passed","successful login.should open home page","5374",""
+"passed","Product deletion.Product should be deleted","31044",""
+"passed","Product creation.New product should be created","20924",""
+"passed","Login with incorrect password.should not open home page, error should appear","10038",""
+"passed","login with empty pass.should not login","4829",""

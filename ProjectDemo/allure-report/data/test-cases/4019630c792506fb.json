@@ -1,0 +1,76 @@
+{
+  "uid" : "4019630c792506fb",
+  "name" : "should open home page",
+  "fullName" : "successful login.should open home page",
+  "historyId" : "10f5f2c2b5b7cf405be5c5f466e9297f",
+  "time" : {
+    "start" : 1537437630986,
+    "stop" : 1537437636360,
+    "duration" : 5374
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login page",
+      "time" : {
+        "start" : 1537437633096,
+        "stop" : 1537437635315,
+        "duration" : 2219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d0dd19f381d49a81",
+      "name" : "Screenshot",
+      "source" : "d0dd19f381d49a81.png",
+      "type" : "image/png",
+      "size" : 21321
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "successful login"
+  }, {
+    "name" : "testClass",
+    "value" : "successful login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open home page"
+  }, {
+    "name" : "package",
+    "value" : "successful login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4019630c792506fb.json",
+  "parameterValues" : [ ]
+}
