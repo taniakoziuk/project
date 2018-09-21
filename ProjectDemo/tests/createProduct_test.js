@@ -9,6 +9,12 @@ describe('Product creation', function() {
       let prod = new ProductsPage();
       let headerPage = new HeaderPage();
 
+      function randomNameNumber(){
+        return Math.floor(Math.random() * 100);
+      }
+
+      let randomName = `Test Product + ${randomNameNumber()}`;
+
       await browser.restart();
 
       await allure.createStep("Open login page", async() =>
@@ -26,7 +32,7 @@ describe('Product creation', function() {
       await prod.getAddProductLink().click())();
 
       await allure.createStep("Input Product name", async() =>
-      await prod.getProductNameField().sendKeys("Pr 2 TaniaTest"))();
+      await prod.getProductNameField().sendKeys(randomName))();
 
       await allure.createStep("Click Product Family dropdown", async() =>
       await prod.getproductFamilyDropdown().click())();
@@ -41,6 +47,6 @@ describe('Product creation', function() {
       await browser.sleep(5000);
 
       let toast = await prod.getToastSuccess();
-      expect(await toast.getText()).toEqual('Product Pr 2 TaniaTest successfully created');
+      expect(await toast.getText()).toEqual(`Product ${randomName} successfully created`);
     });
 });

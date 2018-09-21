@@ -1,33 +1,33 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537437616113' stop='1537437620942'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537519458554' stop='1537519463489'>
     <name>login with empty pass</name>
     <title>login with empty pass</title>
     <test-cases>
-        <test-case start='1537437616113' status='passed' stop='1537437620942'>
+        <test-case start='1537519458554' status='passed' stop='1537519463489'>
             <name>should not login</name>
             <title>should not login</title>
             <labels/>
             <parameters/>
             <steps>
-                <step start='1537437618218' status='passed' stop='1537437620403'>
+                <step start='1537519460651' status='passed' stop='1537519462964'>
                     <name>Open login page</name>
                     <title>Open login page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437620403' status='passed' stop='1537437620484'>
+                <step start='1537519462964' status='passed' stop='1537519463044'>
                     <name>Click login button</name>
                     <title>Click login button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437620484' status='passed' stop='1537437620598'>
+                <step start='1537519463044' status='passed' stop='1537519463149'>
                     <name>enter email</name>
                     <title>enter email</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437620598' status='passed' stop='1537437620672'>
+                <step start='1537519463149' status='passed' stop='1537519463218'>
                     <name>click Sign In button</name>
                     <title>click Sign In button</title>
                     <attachments/>
@@ -35,7 +35,7 @@
                 </step>
             </steps>
             <attachments>
-                <attachment title='Screenshot' source='ded614e6-7379-4395-8d20-a4b98d28f6ed-attachment.png' type='image/png' size='17443'/>
+                <attachment title='Screenshot' source='afe73009-bef2-4b87-9abe-31dd49b475fd-attachment.png' type='image/png' size='17443'/>
             </attachments>
         </test-case>
     </test-cases>

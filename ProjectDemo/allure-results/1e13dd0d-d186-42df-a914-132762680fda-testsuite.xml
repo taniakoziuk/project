@@ -1,45 +1,45 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537437559587' stop='1537437585064'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537519401748' stop='1537519427248'>
     <name>Product creation</name>
     <title>Product creation</title>
     <test-cases>
-        <test-case start='1537437559588' status='passed' stop='1537437585063'>
+        <test-case start='1537519401748' status='passed' stop='1537519427248'>
             <name>should not create product without Product Family</name>
             <title>should not create product without Product Family</title>
             <labels/>
             <parameters/>
             <steps>
-                <step start='1537437561706' status='passed' stop='1537437563897'>
+                <step start='1537519403855' status='passed' stop='1537519406059'>
                     <name>Open login page</name>
                     <title>Open login page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437563897' status='passed' stop='1537437564248'>
+                <step start='1537519406059' status='passed' stop='1537519406447'>
                     <name>Input credentials</name>
                     <title>Input credentials</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437569249' status='passed' stop='1537437569403'>
+                <step start='1537519411447' status='passed' stop='1537519411592'>
                     <name>click Administration button</name>
                     <title>click Administration button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437574404' status='passed' stop='1537437574536'>
+                <step start='1537519416592' status='passed' stop='1537519416734'>
                     <name>click Add new product button</name>
                     <title>click Add new product button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437574536' status='passed' stop='1537437574684'>
+                <step start='1537519416734' status='passed' stop='1537519416880'>
                     <name>Input Product name</name>
                     <title>Input Product name</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437579684' status='passed' stop='1537437579783'>
+                <step start='1537519421882' status='passed' stop='1537519421959'>
                     <name>click Save button</name>
                     <title>click Save button</title>
                     <attachments/>
@@ -47,7 +47,7 @@
                 </step>
             </steps>
             <attachments>
-                <attachment title='Screenshot' source='8c313b6a-99ed-4320-983a-a3a837b3bfd0-attachment.png' type='image/png' size='66266'/>
+                <attachment title='Screenshot' source='f4c7f040-4d25-4fac-ae16-5e3f4c72e84f-attachment.png' type='image/png' size='66105'/>
             </attachments>
         </test-case>
     </test-cases>

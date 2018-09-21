@@ -1,77 +1,65 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537437585066' stop='1537437616110'>
-    <name>Product deletion</name>
-    <title>Product deletion</title>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537519380839' stop='1537519401741'>
+    <name>Product creation</name>
+    <title>Product creation</title>
     <test-cases>
-        <test-case start='1537437585066' status='passed' stop='1537437616110'>
-            <name>Product should be deleted</name>
-            <title>Product should be deleted</title>
+        <test-case start='1537519380839' status='passed' stop='1537519401740'>
+            <name>New product should be created</name>
+            <title>New product should be created</title>
             <labels/>
             <parameters/>
             <steps>
-                <step start='1537437587166' status='passed' stop='1537437589350'>
+                <step start='1537519382935' status='passed' stop='1537519385161'>
                     <name>Open login page</name>
                     <title>Open login page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437589350' status='passed' stop='1537437589701'>
+                <step start='1537519385161' status='passed' stop='1537519385543'>
                     <name>Input credentials</name>
                     <title>Input credentials</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437594703' status='passed' stop='1537437594879'>
+                <step start='1537519390544' status='passed' stop='1537519390686'>
                     <name>click Administration button</name>
                     <title>click Administration button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437599879' status='passed' stop='1537437600019'>
+                <step start='1537519395686' status='passed' stop='1537519395817'>
                     <name>click Add new product button</name>
                     <title>click Add new product button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437600019' status='passed' stop='1537437600180'>
+                <step start='1537519395817' status='passed' stop='1537519395955'>
                     <name>Input Product name</name>
                     <title>Input Product name</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437600180' status='passed' stop='1537437600317'>
+                <step start='1537519395955' status='passed' stop='1537519396109'>
                     <name>Click Product Family dropdown</name>
                     <title>Click Product Family dropdown</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437600317' status='passed' stop='1537437600420'>
+                <step start='1537519396109' status='passed' stop='1537519396216'>
                     <name>Input aqa in the search field</name>
                     <title>Input aqa in the search field</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437600506' status='passed' stop='1537437600583'>
+                <step start='1537519396319' status='passed' stop='1537519396393'>
                     <name>click Save button</name>
                     <title>click Save button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437605583' status='passed' stop='1537437605697'>
-                    <name>click Delete button</name>
-                    <title>click Delete button</title>
-                    <attachments/>
-                    <steps/>
-                </step>
-                <step start='1537437610697' status='passed' stop='1537437610784'>
-                    <name>click Delete confirmation button</name>
-                    <title>click Delete confirmation button</title>
-                    <attachments/>
-                    <steps/>
-                </step>
             </steps>
             <attachments>
-                <attachment title='Screenshot' source='31a19863-fe41-40cb-9e4d-e03afff35ed6-attachment.png' type='image/png' size='75349'/>
+                <attachment title='Screenshot' source='f75797b3-41ff-43e3-bc9e-b3bf70a2f805-attachment.png' type='image/png' size='71980'/>
             </attachments>
         </test-case>
     </test-cases>

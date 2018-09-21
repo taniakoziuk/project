@@ -1,21 +1,21 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537437620944' stop='1537437630984'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537519463491' stop='1537519473572'>
     <name>Login with incorrect password</name>
     <title>Login with incorrect password</title>
     <test-cases>
-        <test-case start='1537437620944' status='passed' stop='1537437630982'>
+        <test-case start='1537519463491' status='passed' stop='1537519473569'>
             <name>should not open home page, error should appear</name>
             <title>should not open home page, error should appear</title>
             <labels/>
             <parameters/>
             <steps>
-                <step start='1537437623048' status='passed' stop='1537437625339'>
+                <step start='1537519465567' status='passed' stop='1537519467894'>
                     <name>Open login page</name>
                     <title>Open login page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1537437625339' status='passed' stop='1537437625695'>
+                <step start='1537519467894' status='passed' stop='1537519468249'>
                     <name>Enter login and password</name>
                     <title>Enter login and password</title>
                     <attachments/>
@@ -23,7 +23,7 @@
                 </step>
             </steps>
             <attachments>
-                <attachment title='Screenshot' source='f8f77814-3c0e-4f39-999f-fce24b1d2449-attachment.png' type='image/png' size='23047'/>
+                <attachment title='Screenshot' source='5dafb364-6035-4b32-a7fb-4346d71e58d8-attachment.png' type='image/png' size='23334'/>
             </attachments>
         </test-case>
     </test-cases>

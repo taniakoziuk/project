@@ -1,15 +1,15 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537437630986' stop='1537437636360'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537519473574' stop='1537519479054'>
     <name>successful login</name>
     <title>successful login</title>
     <test-cases>
-        <test-case start='1537437630986' status='passed' stop='1537437636360'>
+        <test-case start='1537519473574' status='passed' stop='1537519479054'>
             <name>should open home page</name>
             <title>should open home page</title>
             <labels/>
             <parameters/>
             <steps>
-                <step start='1537437633096' status='passed' stop='1537437635315'>
+                <step start='1537519475688' status='passed' stop='1537519477981'>
                     <name>Open login page</name>
                     <title>Open login page</title>
                     <attachments/>
@@ -17,7 +17,7 @@
                 </step>
             </steps>
             <attachments>
-                <attachment title='Screenshot' source='1a6a2e16-0327-459f-85b7-a15c1a8d7901-attachment.png' type='image/png' size='21321'/>
+                <attachment title='Screenshot' source='038f5275-8517-45c2-87b2-3cf6026b7c78-attachment.png' type='image/png' size='21321'/>
             </attachments>
         </test-case>
     </test-cases>
